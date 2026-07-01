@@ -1,0 +1,229 @@
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+
+body {
+    background-color: #114;
+    background: url(images/stripesB7.png); /*http://www.stripegenerator.com/#Zm9yZT0yQjAzMDM7aD0zMDt3PTk7cD0yNTtiYWNrMT01MjAwMDA7YmFjazI9ZmYwMDAwO2d0PTA7ZD0yO3NoYWRvdz0zOw==*/
+    background-attachment: fixed;
+    margin: 1em 30px 1em 30px;
+}
+body,td {
+    font-family: Garamond, EB Garamond, Georgia, serif;
+    font-size: 14pt;
+}
+
+.container {
+    max-width: 1800px;
+    min-width: 600px;
+    margin: 30px auto 30px auto;
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 0;
+    border-radius: 22px 22px 22px 22px;
+}
+
+.header {
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+    color: #fff;
+    background-color: #306;
+    background:-o-linear-gradient(bottom, #306 5%, #408 100%);	
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #306), color-stop(1, #408) );
+    background:-moz-linear-gradient( center top, #306 5%, #408 100% );
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.footer {
+    border-top: 1px solid black;
+    margin: 0;
+    padding: 5px 0 5px 0;
+    width: 100%;
+    color: #fff;
+    background-color: #00c;
+    background:-o-linear-gradient(bottom, #306 5%, #408 100%);	
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #306), color-stop(1, #408) );
+    background:-moz-linear-gradient( center top, #306 5%, #408 100% );
+    text-align: center;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.footer a {
+    color: #fff !important;
+    border: none !important;
+    text-shadow: none !important;
+}
+
+.tabs {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.tab {
+    display: inline-block;
+    border-radius: 12px 12px 0 0;
+    margin: 3px 5px 0px 5px;
+    padding: 5px 6px 2px 6px;
+    background-color: #000;
+}
+
+.tab a {
+    color: #FFF !important;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    font-size: 120%;
+}
+    
+
+
+.content {
+    margin: 15px;
+}
+
+.header h1,.header h2 {
+}
+
+A {
+    text-decoration: none;
+    border-bottom: 1px dotted #00c;
+}		
+
+A:link {    color: #00c; }
+A:visited { color: #00c; }
+A:active {  color: #02f; }
+A:hover {   color: #00f;
+    text-shadow: 0 0 0.3em #cef,0 0 0.3em #cef; /*glow*/
+    border-bottom: 1px solid #08f;
+}
+
+a.plain {
+    color: #00c;
+    text-shadow: none;
+}
+
+table.schedule .exam {
+    color: #D00;
+    font-weight: bold;
+}
+
+table.schedule .rec {
+    font-style: italic;
+}
+
+table.schedule .holiday {
+    color: #888;
+}
+
+table.schedule{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid black;
+}
+
+table.schedule tr:nth-child(2n+0) { background-color:#ddd; }
+table.schedule tr:nth-child(2n+1) { background-color:#ccc; }
+
+table.schedule-4day0 tr:nth-child(4n+0) { background-color:#eee; }
+table.schedule-4day0 tr:nth-child(4n+1) { background-color:#ddd; }
+table.schedule-4day0 tr:nth-child(4n+2) { background-color:#ccc; }
+table.schedule-4day0 tr:nth-child(4n+3) { background-color:#bbb; border-bottom: 1px solid #888; }
+
+table.schedule-3day0 tr:nth-child(3n+0) { background-color:#eee; }
+table.schedule-3day0 tr:nth-child(3n+1) { background-color:#ddd; }
+table.schedule-3day0 tr:nth-child(3n+2) { background-color:#ccc; border-bottom: 1px solid #888; }
+
+table.schedule-3day1 tr:nth-child(3n+1) { background-color:#eee; }
+table.schedule-3day1 tr:nth-child(3n+2) { background-color:#ddd; }
+table.schedule-3day1 tr:nth-child(3n+0) { background-color:#ccc; border-bottom: 1px solid #888; }
+
+table.schedule-3day2 tr:nth-child(3n+2) { background-color:#eee; !important  }
+table.schedule-3day2 tr:nth-child(3n+0) { background-color:#ddd; }
+table.schedule-3day2 tr:nth-child(3n+1) { background-color:#ccc; border-bottom: 1px solid #888; }
+
+table.schedule-2day0 tr:nth-child(2n+0) { background-color:#ddd; }
+table.schedule-2day0 tr:nth-child(2n+1) { background-color:#ccc; border-bottom: 1px solid #888; }
+
+table.schedule-2day1 tr:nth-child(2n+1) { background-color:#ddd; }
+table.schedule-2day1 tr:nth-child(2n+0) { background-color:#ccc; border-bottom: 1px solid #888; }
+
+table.schedule .due { color: #F00; }
+
+
+table.schedule td, table.schedule th{
+    padding: 3px 6px 3px 6px;
+    vertical-align:middle;
+}
+table.schedule td{
+    border-width:0px 1px 1px 0px;
+    text-align:left;
+}
+table.schedule th {
+    background:-o-linear-gradient(bottom, #306 5%, #408 100%);	
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #306), color-stop(1, #408) );
+    background:-moz-linear-gradient( center top, #306 5%, #408 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#306", endColorstr="#408");	
+    background: -o-linear-gradient(top,#306,#408);
+
+    background-color:#306;
+    border:0px solid #000000;
+    text-align: left;
+    font-weight: bold;
+    color:#fff;
+}
+
+table.general {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid black;
+}
+table.general tr:nth-child(2n+0) { background-color:#ddd; }
+table.general tr:nth-child(2n+1) { background-color:#ccc; }
+table.general td, table.general th{
+    padding: 3px 6px 3px 6px;
+    vertical-align:middle;
+}
+table.general td{
+    border-width:0px 1px 1px 0px;
+    text-align:left;
+}
+table.general th {
+    background-color:#008;
+    border:0px solid #000000;
+    text-align: left;
+    font-weight:bold;
+    color:#fff;
+}
+
+red {
+    color: red;
+}
+
+wow {
+    color: red;
+    background-color: #FF0;
+}
+
+wowbox {
+    width: 800px;
+    margin: auto;
+    color: #c00;
+    background-color: #FF0;
+    border: 3px solid #c00;
+    display: block;
+    padding: 10px;
+}
+
+wow-inline {
+    color: #F40;
+    background-color: #FF0;
+    border: 1px solid #F80;
+    padding: 1px;
+    font-size: 80%;
+}
+
+minor {
+    color: #999;
+    font-size: 70%;
+}
