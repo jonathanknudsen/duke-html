@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>demo</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/ssd.css">
+</head>
+<body>
+
+<script src="js/remark-latest.min.js"></script>
+<script>
+  var hljs = remark.highlighter.engine;
+</script>
+<script src="js/remark.language.js"></script>
+
+<script>
+    var slideshow = remark.create({
+        sourceUrl: 'demo.md',
+        highlightStyle: 'monokai',
+        highlightLanguage: 'remark',
+        highlightLines: true
+    });
+</script>
+
+</body>
+</html>
