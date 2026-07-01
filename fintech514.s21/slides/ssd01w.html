@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ssd01w</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/ssd.css">
+    </head>
+    <body>
+    <script src="js/remark-latest.min.js"></script>
+    <script>
+      var hljs = remark.highlighter.engine;
+    </script>
+    <script src="js/remark.language.js"></script>
+
+        <script>
+            var slideshow = remark.create({
+                ratio: '16:9',
+                sourceUrl: 'ssd01w.md',
+                highlightStyle: 'monokai',
+                highlightLanguage: 'remark',
+                highlightLines: true,
+                countIncrementalSlides: false
+            });
+        </script>
+    </body>
+</html>
